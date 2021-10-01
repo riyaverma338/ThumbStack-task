@@ -12,6 +12,8 @@
   opacity: 0.4;
   overflow: hidden;
 }
+
+
 .nav{
     position: absolute;
     color: lightgray;
@@ -40,7 +42,7 @@
 .img-1{
     position: absolute;
     z-index: 10;
-    top: 60px;
+    top: 50px;
     left: 80px;
 }
 
@@ -84,4 +86,62 @@
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+
+.text-2{
+  display: grid;
+  grid-template-columns: 500px 500px;
+  align-items: center;
+  justify-content: center;
+  color: darkslategrey;
+  font-family:sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  padding-top: 50px;
+}
+
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  /* sticky or fixed are fine */
+  position: fixed;
+  top: 0;
+  height: 120px;
+  width: 100%;
+  /* background when scroll is in the top */
+  
+}
+
+nav.scrolled {
+  background: #fff;
+  z-index: 10;
+  transition: all 0.5s ease-in-out;
+}
+
+.offer-container{
+  position: relative;
+  background: black;
+  overflow: hidden;
+}
+.offer-bg{
+  opacity: 0.2;
+  z-index: -10;
+}
+.slide{
+  position: absolute;
+  z-index: 3;
+  top: 1400px;
+  left: 150px;
+}
+
+.dots{
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  cursor: pointer;
+  bottom: -1300px;
+  position: absolute;
+  transition: background-color 0.6s ease;
 }
