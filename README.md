@@ -2,7 +2,7 @@
 
 Thumbstack is a restaurant web application and has been developed to meet the needs of a simple restaurant. The customer can see menu, book table and order food. 
 
-![Alt text](/relative/path/to/img.jpg?raw=true "Web page")
+![Alt text](https://github.com/iayushguptaaa/ThumbStack-task/blob/master/webpage.png?raw=true "Web page")
 
 ## Features
   ### 1. Cycle Detection in formulas
