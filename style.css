@@ -179,3 +179,22 @@ nav.scrolled {
   margin-left: 180px;
   margin-top: 80px;
 }
+
+/* .chefs{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 50px;
+} */
+
+.chefs{
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 50px;
+}
