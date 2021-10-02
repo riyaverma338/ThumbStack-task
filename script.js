@@ -18,14 +18,32 @@ function showSlides() {
   setTimeout(showSlides, 4000); // Change image every 2 seconds
 }
 
-var navbar = document.querySelector('nav')
+// var navbar = document.querySelector('nav')
 
-window.onscroll = function() {
+// window.onscroll = function() {
 
-  // pageYOffset or scrollY
-  if (window.pageYOffset > 0) {
-    navbar.classList.add('scrolled')
-  } else {
-    navbar.classList.remove('scrolled')
-  }
+//   // pageYOffset or scrollY
+//   if (window.pageYOffset > 0) {
+//     navbar.classList.add('scrolled')
+//   } else {
+//     navbar.classList.remove('scrolled')
+//   }
+// }
+
+const myFunction = () => {
+  document.getElementById("first").style.display ='block';
+  document.getElementById("second").style.display ='none'
+  document.getElementById("third").style.display ='none'
+}
+
+const myFunction2 = () => {
+  document.getElementById("second").style.display ='block'
+  document.getElementById("first").style.display ='none'
+  document.getElementById("third").style.display ='none'
+}
+
+const myFunction3 = () => {
+  document.getElementById("third").style.display ='block'
+  document.getElementById("first").style.display ='none'
+  document.getElementById("second").style.display ='none'
 }

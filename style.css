@@ -100,17 +100,17 @@
   padding-top: 50px;
 }
 
-nav {
+/* nav {
   position: -webkit-sticky;
   position: sticky;
   /* sticky or fixed are fine */
-  position: fixed;
+  /* position: fixed;
   top: 0;
   height: 120px;
-  width: 100%;
-  /* background when scroll is in the top */
+  width: 100%; */
+  /* background when scroll is in the top 
   
-}
+} */
 
 nav.scrolled {
   background: #fff;
@@ -144,4 +144,38 @@ nav.scrolled {
   bottom: -1300px;
   position: absolute;
   transition: background-color 0.6s ease;
+}
+
+.b1 , .b2 , .b3, .b4, .b5, .b6{
+  border: 1px solid #000;
+  padding: 10px 30px;
+  background-color: #fff;
+  margin-left: 10px;
+}
+.hover-effect:hover{
+  background-color: #d63031;
+  color: #fff;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.round >img{
+  border-radius: 50%;
+  border: 10px solid lightgray;
+}
+
+.round{
+  margin-bottom: 50px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-left: 180px;
+  margin-top: 80px;
 }
