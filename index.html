@@ -9,6 +9,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="./style.css">
     <title>Dawat</title>
@@ -150,13 +151,14 @@
     <section id="Menu" style="padding-top: 100px;">
       <h1 style="font-family: 'Dancing Script', cursive; font-size: 60px; color: #d63031;text-align: center;">Today's Menu</h1>
       <img src="./assets/red seperator.png" style="padding-left: 580px;">
+      <div>
       <div class="container">
         <button class="hover-effect b1" onClick="myFunction()">ALL</button>
         <button class="hover-effect b2" onClick="myFunction2()">BREAKFAST</button>
         <button class="hover-effect b3" onClick="myFunction3()">LUNCH</button>
-        <button class="hover-effect b4" onClick="myFunction3()">DINNER</button>
-        <button class="hover-effect b5" onClick="myFunction3()">COFFE</button>
-        <button class="hover-effect b6" onClick="myFunction3()">SNACKS</button>
+        <button class="hover-effect b4" onClick="myFunction4()">DINNER</button>
+        <button class="hover-effect b5" onClick="myFunction5()">COFFE</button>
+        <button class="hover-effect b6" onClick="myFunction6()">SNACKS</button>
       </div>
 
 <div class="content">
@@ -167,16 +169,16 @@
   <div class="round fifth"><img src="./assets/menu_5.jpg"/> </div>
   <div class="round sixth"><img src="./assets/menu_6.jpg"/> </div>
 </div>
-     
+</div> 
 <div class="offer-container" style="position: relative;">
   <img class="offer-bg" src="./assets/promo_slide_2.jpg" style="height: 400px; width: 100%; background: fixed;">
-  <h1 style="position: absolute;top: 120px; color: #fff; font-family: 'PT Sans Narrow', sans-serif; font-weight: 700; font-size: 45px; word-spacing: 5px;left: 440px; letter-spacing: 5px;">BOOK A TABLE NOW !</h1>
+  <h1 style="position: absolute;top: 120px; color: #fff; font-family: 'PT Sans Narrow', sans-serif; font-weight: 700; font-size: 45px; word-spacing: 5px;left: 450px; letter-spacing: 5px;">BOOK A TABLE NOW !</h1>
 <button style="background-color: #fff;
 color: #d63031; font-weight: 700;
 position: absolute;
 padding: 10px 35px;
 border: 1px solid #fff;
-left: 570px;
+left: 585px;
 top: 200px;
 ">BOOK NOW</button>
 </div>
@@ -220,18 +222,72 @@ top: 200px;
     </section>
 
     <!-- Blog -->
-    <section id="Blog">
+    <section id="Blog" style="margin-top: 100px;">
+      <div class="blog-container" style="position: relative;">
+        <img class="blog-bg" src="./assets/blog-3.jpg" style="height: 800px; width: 100%; background: fixed;">
+</div>
+        <h1 style="font-family: 'Dancing Script', cursive; font-size: 60px; color: #d63031; position: absolute;left: 535px; bottom: -3460px;">Latest News</h1>
+      <img src="./assets/red seperator.png" style="position: absolute; bottom: -3500px;left: 575px;">
 
+      <div class="container-blog">
+        <div class="flex">
+          <div class="card">
+            <img src="./assets/blog-2.jpg">
+            <div class="card-body">
+              <h3>Flexbox is awesome</h3>
+              <p>Lorem ipsum dolor sit amet adipisicing elit. Praesentium dolorum reiciendis veritatis
+                nulla minima, atque fugi, voluptatum beatae illo!
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./assets/blog-3.jpg">
+            <div class="card-body">
+              <h3>Flexbox is awesome</h3>
+              <p>Lorem ipsum dolor sit amet adipisicing elit. Praesentium dolorum reiciendis veritatis
+                nulla minima, atque fugi, voluptatum beatae illo!
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./assets/blog-1.jpg">
+            <div class="card-body">
+              <h3>Flexbox is awesome</h3>
+              <p>Lorem ipsum dolor sit amet adipisicing elit. Praesentium dolorum reiciendis veritatis
+                nulla minima, atque fugi, voluptatum beatae illo!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Gallery -->
-    <section id="Gallery">
+    <section id="Gallery" style="margin-top: 100px;">
+      <h1 style="font-family: 'Dancing Script', cursive; font-size: 60px; color: #d63031; text-align: center;">Gallery</h1>
+      <img src="./assets/red seperator.png" style="padding-left: 575px;">
 
     </section>
 
-    <!-- Contact -->
-    <section id="Contact">
-
+<!--  Contact -->
+     <section id="Contact" style="margin-top: 100px;">
+      <div class="blog-container" style="position: relative;">
+        <img class="blog-bg" src="./assets/Footer background.png" style="height: auto; width: 100%; background: fixed;">
+</div>
+<img src="./assets/main_logo.png" style="position: absolute; bottom: -4600px; left: 585px;">
+<div class="footer">
+  <h5 style="line-height: 60px;">20, floor, Queensland Victoria Building. 60 california street california USA</h5>
+<p style="font-weight:600; font-size:16px; color: #d63031; line-height: 40px;">hello@dawat.com<br>+88 000 0000 1111</p>
+<div class="icons">
+  <img src="https://img.icons8.com/material-outlined/24/ffffff/facebook-f.png"/>
+  <img src="https://img.icons8.com/ios-glyphs/24/ffffff/twitter.png"/>
+  <img src="https://img.icons8.com/material-outlined/24/ffffff/globe--v2.png"/>
+  <img src="https://img.icons8.com/ios/50/ffffff/google-plus.png"/>
+  <img src="https://img.icons8.com/ios-glyphs/30/ffffff/youtube-squared.png"/>
+  <img src="https://img.icons8.com/ios-glyphs/50/ffffff/pinterest.png"/>
+  <img src="https://img.icons8.com/ios-glyphs/30/ffffff/skype.png"/>
+</div>
+</div>
     </section>
 
     <script src="./script.js"></script>
