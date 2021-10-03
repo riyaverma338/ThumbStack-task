@@ -171,11 +171,13 @@ nav.scrolled {
 
 .round{
   margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 30% 70%;
 }
 
 .content {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 50%  50%;
   margin-left: 180px;
   margin-top: 80px;
 }
@@ -215,7 +217,7 @@ nav.scrolled {
   max-width: 68rem;
   position: absolute;
   left: 100px;
-  bottom: -4050px;
+  bottom: -4150px;
 }
 
 .flex {
@@ -274,8 +276,8 @@ nav.scrolled {
 
 .footer{
   position: absolute;
-  bottom: -4900px;
-  left: 400px;
+  bottom: -5020px;
+  left: 390px;
   text-align: center;
   color: white;
   font-size: 20px;

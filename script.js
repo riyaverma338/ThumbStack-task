@@ -31,36 +31,55 @@ function showSlides() {
 // }
 
 const myFunction = () => {
-  document.querySelector("first").style.display ='block';
-  document.querySelector("second").style.display ='none';
-  document.querySelector("third").style.display ='none';
-  document.querySelector("fourth").style.display ='none'
+  document.querySelector(".first").style.display ='block';
+  document.querySelector(".second").style.display ='block';
+  document.querySelector(".third").style.display ='block';
+  document.querySelector(".fourth").style.display ='block';
+  document.querySelector(".fifth").style.display ='block';
+  document.querySelector(".sixth").style.display ='block';
+
 }
 
 const myFunction2 = () => {
-  document.querySelector("second").style.display ='none';
-  document.querySelector("first").style.display ='none';
-  document.querySelector("third").style.display ='none';
+  document.querySelector(".second").style.display ='block';
+  document.querySelector(".first").style.display ='none';
+  document.querySelector(".third").style.display ='none';
+  document.querySelector(".fourth").style.display ='block';
+  document.querySelector(".fifth").style.display ='block';
+  document.querySelector(".sixth").style.display ='block';
 }
 
 const myFunction3 = () => {
-  document.getElementById("third").style.display ='block'
-  document.getElementById("first").style.display ='none'
-  document.getElementById("second").style.display ='none'
+  document.querySelector(".third").style.display ='block';
+  document.querySelector(".first").style.display ='none';
+  document.querySelector(".second").style.display ='block';
+  document.querySelector(".fourth").style.display ='block';
+  document.querySelector(".fifth").style.display ='block';
+  document.querySelector(".sixth").style.display ='block';
 }
 
 const myFunction4 = () => {
-  document.getElementById("third").style.display ='block'
-  document.getElementById("first").style.display ='none'
-  document.getElementById("second").style.display ='none'
+  document.querySelector(".third").style.display ='block';
+  document.querySelector(".first").style.display ='none';
+  document.querySelector(".second").style.display ='none';
+  document.querySelector(".fourth").style.display ='block';
+  document.querySelector(".fifth").style.display ='block';
+  document.querySelector(".sixth").style.display ='block';
 }
 const myFunction5 = () => {
-  document.getElementById("third").style.display ='block'
-  document.getElementById("first").style.display ='none'
-  document.getElementById("second").style.display ='none'
+  document.querySelector(".third").style.display ='block';
+  document.querySelector(".first").style.display ='none';
+  document.querySelector(".second").style.display ='none';
+  document.querySelector(".fourth").style.display ='none';
+  document.querySelector(".fifth").style.display ='block';
+  document.querySelector(".sixth").style.display ='block';
+ 
 }
 const myFunction6 = () => {
-  document.getElementById("third").style.display ='block'
-  document.getElementById("first").style.display ='none'
-  document.getElementById("second").style.display ='none'
+  document.querySelector(".third").style.display ='block';
+  document.querySelector(".first").style.display ='block';
+  document.querySelector(".second").style.display ='block';
+  document.querySelector(".fourth").style.display ='none';
+  document.querySelector(".fifth").style.display ='none';
+  document.querySelector(".sixth").style.display ='none';
 }
